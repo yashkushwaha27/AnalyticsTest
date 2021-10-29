@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/AnalyticsTest/static/css/main.e86cb3ee.chunk.css",
+    "main.js": "/AnalyticsTest/static/js/main.4610e954.chunk.js",
+    "main.js.map": "/AnalyticsTest/static/js/main.4610e954.chunk.js.map",
+    "runtime-main.js": "/AnalyticsTest/static/js/runtime-main.47254326.js",
+    "runtime-main.js.map": "/AnalyticsTest/static/js/runtime-main.47254326.js.map",
+    "static/css/2.8a1b5df5.chunk.css": "/AnalyticsTest/static/css/2.8a1b5df5.chunk.css",
+    "static/js/2.1ccd226e.chunk.js": "/AnalyticsTest/static/js/2.1ccd226e.chunk.js",
+    "static/js/2.1ccd226e.chunk.js.map": "/AnalyticsTest/static/js/2.1ccd226e.chunk.js.map",
+    "static/js/3.9dbcb2c4.chunk.js": "/AnalyticsTest/static/js/3.9dbcb2c4.chunk.js",
+    "static/js/3.9dbcb2c4.chunk.js.map": "/AnalyticsTest/static/js/3.9dbcb2c4.chunk.js.map",
+    "index.html": "/AnalyticsTest/index.html",
+    "static/css/2.8a1b5df5.chunk.css.map": "/AnalyticsTest/static/css/2.8a1b5df5.chunk.css.map",
+    "static/css/main.e86cb3ee.chunk.css.map": "/AnalyticsTest/static/css/main.e86cb3ee.chunk.css.map",
+    "static/js/2.1ccd226e.chunk.js.LICENSE.txt": "/AnalyticsTest/static/js/2.1ccd226e.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/AnalyticsTest/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47254326.js",
+    "static/css/2.8a1b5df5.chunk.css",
+    "static/js/2.1ccd226e.chunk.js",
+    "static/css/main.e86cb3ee.chunk.css",
+    "static/js/main.4610e954.chunk.js"
+  ]
+}

@@ -1,21 +1,19 @@
+import axios from "axios";
 import { actionTypes } from "../constants/actionTypes";
 
-export const getData = (data) => {
-  return {
-    type: actionTypes.GET_DATA,
-    payload: data,
-  };
+const api = require("../../network/apiCalls");
+
+export const getData = () => async (dispatch) => {
+  const response = await api.getData();
+  dispatch({ type: actionTypes.GET_DATA, payload: response });
 };
 
-export const setData = (data) => {
-  return {
-    type: actionTypes.SET_DATA,
-    payload: data,
-  };
+export const setData = (id) => async (dispatch) => {
+  const response = await api.getDataByID(id);
+  dispatch({ type: actionTypes.SET_DATA, payload: response });
 };
 
 export const removeData = () => {
-  console.log("removing");
   return {
     type: actionTypes.REMOVE_DATA,
     payload: null,

@@ -12,14 +12,8 @@ const SelectedProduct = () => {
 
   const productById = useSelector((product) => product.products.productById);
 
-  const getDataByID = async (p_id) => {
-    const product = await api.getDataByID(p_id);
-    console.log("product by id -> ", product);
-    dispath(setData(product));
-  };
-
   useEffect(() => {
-    getDataByID(id);
+    if (id && id !== "") dispath(setData(id));
     return () => {
       dispath(removeData());
     };
